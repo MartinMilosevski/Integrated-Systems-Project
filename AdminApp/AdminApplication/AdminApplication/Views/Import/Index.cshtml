@@ -1,0 +1,12 @@
+﻿<div>
+
+    <h2>Import New Cars For Rent:</h2>
+    
+    <form asp-action="ImportCars" asp-controller="Import" method="post" enctype="multipart/form-data">
+        <label>Import Excel:</label>
+        <input type="file" name="file"  class="form-control"/>
+        <br />
+        <button type="submit" class="btn btn-success">Import</button>
+    </form>
+
+</div>

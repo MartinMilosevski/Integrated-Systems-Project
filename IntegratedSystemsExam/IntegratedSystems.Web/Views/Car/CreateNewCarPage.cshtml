@@ -1,0 +1,35 @@
+﻿@model IntegratedSystems.Domain.Domain_Models.Car
+
+<h1 style="font-family:fantasy;text-align:center">Input Car Informations</h1>
+
+
+
+<div class="container">
+<h4 style="color:indianred">You must fill in all of the fields</h4>
+<form asp-action="CreateCar" asp-controller="Car" >
+
+    <div>
+    <label class="form-label">Image</label>
+    <input class="form-control" type="text" asp-for="@Model.ImageURL" />
+    </div>
+
+    <div class="m-2 p-2">
+    <h3 class="form-label">Brand:</h3>
+        <label class="form-label">Manufacturer</label>
+    <input class="form-control" type="text" asp-for="@Model.Brand.Manufacturer" />
+        <label class="form-label">Model</label>
+    <input class="form-control"  type="text" asp-for="@Model.Brand.Model" />
+        <label class="form-label">Year</label>
+    <input class="form-control" type="text" asp-for="@Model.Brand.year" />
+        <label class="form-label">Kilometers</label>
+    <input class="form-control" type="text" asp-for="@Model.Brand.Km" />
+    </div>
+    <br />
+    <div>
+    <label class="form-label">Price</label>
+    <input class="form-control" type="text" asp-for="@Model.PricePerDay" />
+    </div>
+
+    <button type="submit" class="btn btn-dark mt-5">Add</button>
+</form>
+</div>

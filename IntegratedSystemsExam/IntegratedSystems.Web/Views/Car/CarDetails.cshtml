@@ -1,0 +1,37 @@
+﻿@model IntegratedSystems.Domain.Domain_Models.Car
+
+<h1 style="font-family:fantasy;text-align:center">Details for the car</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <img src="@Model.ImageURL" class="card-img-top" alt="Car Image" style="border-radius: 8px;">
+                <div class="card-body">
+                    <h5 class="card-title">@Model.Brand.Manufacturer @Model.Brand.Model</h5>
+                    <p class="card-text">
+                        <strong>Manufacturer:</strong> @Model.Brand.Manufacturer<br />
+                        <strong>Model:</strong> @Model.Brand.Model<br />
+                        <strong>Year:</strong> @Model.Brand.year<br />
+                        <strong>Price Per Day:</strong> $@Model.PricePerDay<br />
+                        <strong>Current Mileage (Km):</strong> @Model.Brand.Km
+                    </p>
+                    <div class="container">
+                        <div class="row">
+                            <div class="colmd-6">
+                            <a asp-action="Index" asp-controller="Car" class="btn btn-info">Back</a>
+                            <a asp-action="AddCarToRentalsPage" asp-controller="Rentals" asp-route-id="@Model.Id" class="btn btn-outline-success">Rent</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    
+
+
+

@@ -1,0 +1,145 @@
+﻿@model List<IntegratedSystems.Domain.Domain_Models.Rentals>
+@using Microsoft.Extensions.Options
+@inject IOptions<IntegratedSystems.Domain.Payment.StripeSettings> Stripe
+
+
+<h1 style="font-family:fantasy;text-align:center">Rentals</h1>
+
+<div class="container">
+    @{
+        if (Model.Count > 0)
+        {
+            <div class="d-grid gap-2 pb-3">
+                <a class="btn btn-outline-warning" asp-action="DeleteAllRentals" asp-controller="Rentals">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                        <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z" />
+                        <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z" />
+                    </svg>Remove All
+                </a>
+            </div>
+        }
+    }
+    <div class="row">
+    <div class="col">
+        <table class="table table-bordered border border-info pt-2">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Customer</th>
+                    <th>Car Model</th>
+                    <th>Days</th>
+                    <th>Price Per Day</th>
+                    <th>Full Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    for (int i = 0; i < Model.Count(); i++)
+                    {
+                        var item = Model.ElementAt(i);
+                        <tr>
+                            <td>@(i + 1)</td>
+                            <td style="color:dodgerblue">@item.customer?.FirstName</td>
+                            <td style="color:dodgerblue">@item.car?.Brand.Manufacturer - @item.car?.Brand.Model</td>
+                            <td style="color:dodgerblue">
+                                <div class="input-group mb-3">
+                                    <input disabled class="input-group-text" value="@(@item.Date_on.DayNumber-@item.Date_from.DayNumber)">
+                                </div>
+                            </td>
+                            <td style="color:dodgerblue">
+                                <div class="input-group mb-3">
+                                    <input disabled class="input-group-text" value="@item.car?.PricePerDay">
+                                    <span class="input-group-text">$</span>
+                                </div> 
+                            </td>
+                            <td style="color:dodgerblue">
+                                    <div class="input-group mb-3">
+                                        <input disabled class="input-group-text" value="@item.FullPrice" style="width:60px">
+                                        <span class="input-group-text">$</span>
+                                        <a asp-action="DeleteRental" asp-controller="Rentals" asp-route-id="@item.Id" class="btn btn-outline-danger ms-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                                <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z" />
+                                                <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z" />
+                                            </svg> Remove
+                                        </a>
+                                    </div>
+                                
+                            </td>
+                        </tr>
+                    }
+                }
+
+                @{
+                    if (Model.Count==0)
+                    {
+                        <div class="d-grid gap-2 pb-3">
+                            
+                            <a style="" asp-action="Index" asp-controller="Car" class="btn btn-outline-success">Make a Reservation <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2" viewBox="0 0 16 16">
+                                    <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0" />
+                                </svg>
+                            </a>
+                                
+                         </div>
+                    }
+                }
+
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+<div class="row mt-4">
+    <div class="col">
+    <table class="table table-bordered border border-info" style="width:300px">
+        <thead>
+            <tr>
+                <th><h5 style="font-weight:bolder;color:dodgerblue" ">Total</h5></th>
+                
+            </tr>
+
+        </thead>
+
+        <tbody>
+            @{
+                int price = 0;
+                for (int i = 0; i < Model.Count(); i++)
+                {
+                    var item = Model.ElementAt(i);
+                    price += item.FullPrice;
+                }
+            
+             <tr>
+            <td style="color:dodgerblue">
+                Full Price: @price $
+                        <a href="/Rentals/PayAllRentals" class="btn btn-info">
+                    Make Order
+                </a>
+
+                <form asp-controller="Rentals" asp-action="PayOrder" method="post">
+                    <article>
+                    <script src="https://checkout.stripe.com/checkout.js"
+                            class="stripe-button"
+                            data-key="@Stripe.Value.PublicKey"
+                            data-locale="auto"
+                            data-description="Payment"
+                            data-amount="@(price*100)"
+                            data-label="Pay @price $"
+                    >
+
+                    </script>
+
+                    </article>
+                </form>
+
+
+            </td>
+            </tr>
+            }
+        </tbody>
+
+    </table>
+    </div>
+   </div>
+</div>

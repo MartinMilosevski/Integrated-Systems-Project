@@ -1,0 +1,232 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Users\\User\\Downloads\\IntegratedSystemsExam\\AdminApp\\AdminApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{529A858A-5257-4543-851B-22550CF7C80B}|AdminApplication\\AdminApplication.csproj|d:\\users\\user\\downloads\\integratedsystemsexam\\adminapp\\adminapplication\\adminapplication\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{529A858A-5257-4543-851B-22550CF7C80B}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{529A858A-5257-4543-851B-22550CF7C80B}|AdminApplication\\AdminApplication.csproj|d:\\users\\user\\downloads\\integratedsystemsexam\\adminapp\\adminapplication\\adminapplication\\controllers\\importcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{529A858A-5257-4543-851B-22550CF7C80B}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\controllers\\importcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{529A858A-5257-4543-851B-22550CF7C80B}|AdminApplication\\AdminApplication.csproj|d:\\users\\user\\downloads\\integratedsystemsexam\\adminapp\\adminapplication\\adminapplication\\models\\carbrand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{529A858A-5257-4543-851B-22550CF7C80B}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\models\\carbrand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{529A858A-5257-4543-851B-22550CF7C80B}|AdminApplication\\AdminApplication.csproj|d:\\users\\user\\downloads\\integratedsystemsexam\\adminapp\\adminapplication\\adminapplication\\controllers\\returnscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{529A858A-5257-4543-851B-22550CF7C80B}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\controllers\\returnscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{529A858A-5257-4543-851B-22550CF7C80B}|AdminApplication\\AdminApplication.csproj|d:\\users\\user\\downloads\\integratedsystemsexam\\adminapp\\adminapplication\\adminapplication\\views\\returns\\returnshome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{529A858A-5257-4543-851B-22550CF7C80B}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\views\\returns\\returnshome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{529A858A-5257-4543-851B-22550CF7C80B}|AdminApplication\\AdminApplication.csproj|d:\\users\\user\\downloads\\integratedsystemsexam\\adminapp\\adminapplication\\adminapplication\\views\\returns\\getreturn.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{529A858A-5257-4543-851B-22550CF7C80B}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\views\\returns\\getreturn.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{529A858A-5257-4543-851B-22550CF7C80B}|AdminApplication\\AdminApplication.csproj|d:\\users\\user\\downloads\\integratedsystemsexam\\adminapp\\adminapplication\\adminapplication\\models\\returns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{529A858A-5257-4543-851B-22550CF7C80B}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\models\\returns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{529A858A-5257-4543-851B-22550CF7C80B}|AdminApplication\\AdminApplication.csproj|d:\\users\\user\\downloads\\integratedsystemsexam\\adminapp\\adminapplication\\adminapplication\\views\\import\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{529A858A-5257-4543-851B-22550CF7C80B}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\views\\import\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{529A858A-5257-4543-851B-22550CF7C80B}|AdminApplication\\AdminApplication.csproj|d:\\users\\user\\downloads\\integratedsystemsexam\\adminapp\\adminapplication\\adminapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{529A858A-5257-4543-851B-22550CF7C80B}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{529A858A-5257-4543-851B-22550CF7C80B}|AdminApplication\\AdminApplication.csproj|d:\\users\\user\\downloads\\integratedsystemsexam\\adminapp\\adminapplication\\adminapplication\\models\\rentals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{529A858A-5257-4543-851B-22550CF7C80B}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\models\\rentals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{529A858A-5257-4543-851B-22550CF7C80B}|AdminApplication\\AdminApplication.csproj|d:\\users\\user\\downloads\\integratedsystemsexam\\adminapp\\adminapplication\\adminapplication\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{529A858A-5257-4543-851B-22550CF7C80B}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{529A858A-5257-4543-851B-22550CF7C80B}|AdminApplication\\AdminApplication.csproj|d:\\users\\user\\downloads\\integratedsystemsexam\\adminapp\\adminapplication\\adminapplication\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{529A858A-5257-4543-851B-22550CF7C80B}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReturnsController.cs",
+              "DocumentMoniker": "D:\\Users\\User\\Downloads\\IntegratedSystemsExam\\AdminApp\\AdminApplication\\AdminApplication\\Controllers\\ReturnsController.cs",
+              "RelativeDocumentMoniker": "AdminApplication\\Controllers\\ReturnsController.cs",
+              "ToolTip": "D:\\Users\\User\\Downloads\\IntegratedSystemsExam\\AdminApp\\AdminApplication\\AdminApplication\\Controllers\\ReturnsController.cs",
+              "RelativeToolTip": "AdminApplication\\Controllers\\ReturnsController.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAAAJgAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T16:52:05.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\Users\\User\\Downloads\\IntegratedSystemsExam\\AdminApp\\AdminApplication\\AdminApplication\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "AdminApplication\\Models\\Customer.cs",
+              "ToolTip": "D:\\Users\\User\\Downloads\\IntegratedSystemsExam\\AdminApp\\AdminApplication\\AdminApplication\\Models\\Customer.cs",
+              "RelativeToolTip": "AdminApplication\\Models\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T16:51:24.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Car.cs",
+              "DocumentMoniker": "D:\\Users\\User\\Downloads\\IntegratedSystemsExam\\AdminApp\\AdminApplication\\AdminApplication\\Models\\Car.cs",
+              "RelativeDocumentMoniker": "AdminApplication\\Models\\Car.cs",
+              "ToolTip": "D:\\Users\\User\\Downloads\\IntegratedSystemsExam\\AdminApp\\AdminApplication\\AdminApplication\\Models\\Car.cs",
+              "RelativeToolTip": "AdminApplication\\Models\\Car.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T16:49:54.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarBrand.cs",
+              "DocumentMoniker": "D:\\Users\\User\\Downloads\\IntegratedSystemsExam\\AdminApp\\AdminApplication\\AdminApplication\\Models\\CarBrand.cs",
+              "RelativeDocumentMoniker": "AdminApplication\\Models\\CarBrand.cs",
+              "ToolTip": "D:\\Users\\User\\Downloads\\IntegratedSystemsExam\\AdminApp\\AdminApplication\\AdminApplication\\Models\\CarBrand.cs",
+              "RelativeToolTip": "AdminApplication\\Models\\CarBrand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T16:49:38.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Rentals.cs",
+              "DocumentMoniker": "D:\\Users\\User\\Downloads\\IntegratedSystemsExam\\AdminApp\\AdminApplication\\AdminApplication\\Models\\Rentals.cs",
+              "RelativeDocumentMoniker": "AdminApplication\\Models\\Rentals.cs",
+              "ToolTip": "D:\\Users\\User\\Downloads\\IntegratedSystemsExam\\AdminApp\\AdminApplication\\AdminApplication\\Models\\Rentals.cs",
+              "RelativeToolTip": "AdminApplication\\Models\\Rentals.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T16:49:17.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Returns.cs",
+              "DocumentMoniker": "D:\\Users\\User\\Downloads\\IntegratedSystemsExam\\AdminApp\\AdminApplication\\AdminApplication\\Models\\Returns.cs",
+              "RelativeDocumentMoniker": "AdminApplication\\Models\\Returns.cs",
+              "ToolTip": "D:\\Users\\User\\Downloads\\IntegratedSystemsExam\\AdminApp\\AdminApplication\\AdminApplication\\Models\\Returns.cs",
+              "RelativeToolTip": "AdminApplication\\Models\\Returns.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T16:48:57.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Users\\User\\Downloads\\IntegratedSystemsExam\\AdminApp\\AdminApplication\\AdminApplication\\Views\\Import\\Index.cshtml",
+              "RelativeDocumentMoniker": "AdminApplication\\Views\\Import\\Index.cshtml",
+              "ToolTip": "D:\\Users\\User\\Downloads\\IntegratedSystemsExam\\AdminApp\\AdminApplication\\AdminApplication\\Views\\Import\\Index.cshtml",
+              "RelativeToolTip": "AdminApplication\\Views\\Import\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T16:24:39.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "getReturn.cshtml",
+              "DocumentMoniker": "D:\\Users\\User\\Downloads\\IntegratedSystemsExam\\AdminApp\\AdminApplication\\AdminApplication\\Views\\Returns\\getReturn.cshtml",
+              "RelativeDocumentMoniker": "AdminApplication\\Views\\Returns\\getReturn.cshtml",
+              "ToolTip": "D:\\Users\\User\\Downloads\\IntegratedSystemsExam\\AdminApp\\AdminApplication\\AdminApplication\\Views\\Returns\\getReturn.cshtml",
+              "RelativeToolTip": "AdminApplication\\Views\\Returns\\getReturn.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T18:33:04.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ImportController.cs",
+              "DocumentMoniker": "D:\\Users\\User\\Downloads\\IntegratedSystemsExam\\AdminApp\\AdminApplication\\AdminApplication\\Controllers\\ImportController.cs",
+              "RelativeDocumentMoniker": "AdminApplication\\Controllers\\ImportController.cs",
+              "ToolTip": "D:\\Users\\User\\Downloads\\IntegratedSystemsExam\\AdminApp\\AdminApplication\\AdminApplication\\Controllers\\ImportController.cs",
+              "RelativeToolTip": "AdminApplication\\Controllers\\ImportController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAcwCEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T16:24:09.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReturnsHome.cshtml",
+              "DocumentMoniker": "D:\\Users\\User\\Downloads\\IntegratedSystemsExam\\AdminApp\\AdminApplication\\AdminApplication\\Views\\Returns\\ReturnsHome.cshtml",
+              "RelativeDocumentMoniker": "AdminApplication\\Views\\Returns\\ReturnsHome.cshtml",
+              "ToolTip": "D:\\Users\\User\\Downloads\\IntegratedSystemsExam\\AdminApp\\AdminApplication\\AdminApplication\\Views\\Returns\\ReturnsHome.cshtml",
+              "RelativeToolTip": "AdminApplication\\Views\\Returns\\ReturnsHome.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACAAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T17:21:34.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Users\\User\\Downloads\\IntegratedSystemsExam\\AdminApp\\AdminApplication\\AdminApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AdminApplication\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Users\\User\\Downloads\\IntegratedSystemsExam\\AdminApp\\AdminApplication\\AdminApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AdminApplication\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABsAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T17:34:42.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Users\\User\\Downloads\\IntegratedSystemsExam\\AdminApp\\AdminApplication\\AdminApplication\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "AdminApplication\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Users\\User\\Downloads\\IntegratedSystemsExam\\AdminApp\\AdminApplication\\AdminApplication\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "AdminApplication\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T15:57:03.539Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

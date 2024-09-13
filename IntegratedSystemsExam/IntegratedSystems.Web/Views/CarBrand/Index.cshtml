@@ -1,0 +1,27 @@
+﻿@model List<IntegratedSystems.Domain.Domain_Models.CarBrand>
+
+<h1 style="font-family:fantasy;text-align:center">Available Car Brands</h1>
+
+
+<div class="container">
+<table class="table table-bordered border border-info">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Manufacturer</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            for (int i = 0; i < Model.Count(); i++)
+            {
+                var item = Model.ElementAt(i);
+                <tr>
+                    <td>@(i+1)</td>
+                     <td style="color:dodgerblue">@item.Manufacturer</td>
+                     </tr>
+                 }
+        }
+    </tbody>
+</table>
+</div>

@@ -1,0 +1,43 @@
+﻿@model IntegratedSystems.Domain.Domain_Models.Car
+
+
+<h1 style="font-family:fantasy;text-align:center">Make a Reservation for <br /> @Model.Brand.Manufacturer - @Model.Brand.Model</h1>
+
+<div class="container">
+
+<form asp-action="AddCarToRentals" asp-controller="Rentals">
+    
+    <img src="@Model.ImageURL" class="card-img-top" alt="Car Image" style="width:800px;height:450px">
+
+    <div class="mb-3">
+        <label class="form-label">Model:</label>
+        <input disabled class="form-control" type="text" placeholder="@Model.Brand.Model" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Manufacturer:</label>
+        <input disabled class="form-control" type="text" placeholder="@Model.Brand.Manufacturer" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Year:</label>
+        <input disabled class="form-control" type="text" placeholder="@Model.Brand.year" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Kilometers:</label>
+        <input disabled class="form-control" type="text" placeholder="@Model.Brand.Km" />
+    </div>
+
+    <input type="hidden" name="CarId" value="@Model.Id" />
+
+    <div>
+    <label >Date From:</label>
+    <input type="date" name="DFrom" />
+
+    <label>Date To:</label>
+    <input type="date" name="DTo" />
+    </div>
+
+    <button class="btn btn-success" type="submit">Rent</button>
+</form>
+</div>
