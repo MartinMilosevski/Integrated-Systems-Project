@@ -50,7 +50,7 @@ namespace AdminApplication.Controllers
                     while (reader.Read())
                     {
                         Car car = new Car();
-                        car.ImgURL = reader.GetValue(5).ToString();
+                        car.ImageURL = reader.GetValue(5).ToString();
                         car.Brand=new CarBrand();
                         car.Brand.Model = reader.GetValue(0).ToString();
                         car.Brand.Manufacturer = reader.GetValue(1).ToString();

@@ -1174,3 +1174,4 @@ D:\Users\User\Downloads\IntegratedSystemsExam\IntegratedSystemsExam\IntegratedSy
 D:\Users\User\Downloads\IntegratedSystemsExam\IntegratedSystemsExam\IntegratedSystems.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 D:\Users\User\Downloads\IntegratedSystemsExam\IntegratedSystemsExam\IntegratedSystems.Web\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 D:\Users\User\Downloads\IntegratedSystemsExam\IntegratedSystemsExam\IntegratedSystems.Web\bin\Debug\net8.0\Stripe.net.dll
+D:\Users\User\Downloads\IntegratedSystemsExam\IntegratedSystemsExam\IntegratedSystems.Web\obj\Debug\net8.0\IntegratedSystems.Web.sourcelink.json

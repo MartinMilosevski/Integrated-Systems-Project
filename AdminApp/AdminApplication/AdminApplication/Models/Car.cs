@@ -6,6 +6,6 @@
 
         public int PricePerDay { get; set; }
 
-        public string? ImgURL { get; set; }
+        public string? ImageURL { get; set; }
     }
 }

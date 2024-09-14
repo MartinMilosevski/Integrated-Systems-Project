@@ -55,3 +55,4 @@ D:\Users\User\Downloads\IntegratedSystemsExam\AdminApp\AdminApplication\AdminApp
 D:\Users\User\Downloads\IntegratedSystemsExam\AdminApp\AdminApplication\AdminApplication\bin\Debug\net8.0\System.IO.Packaging.dll
 D:\Users\User\Downloads\IntegratedSystemsExam\AdminApp\AdminApplication\AdminApplication\bin\Debug\net8.0\XLParser.dll
 D:\Users\User\Downloads\IntegratedSystemsExam\AdminApp\AdminApplication\AdminApplication\bin\Debug\net8.0\ExcelDataReader.dll
+D:\Users\User\Downloads\IntegratedSystemsExam\AdminApp\AdminApplication\AdminApplication\obj\Debug\net8.0\AdminApplication.sourcelink.json
